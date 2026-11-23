@@ -16,11 +16,11 @@ quotes — and the top 50 share $250.
 ## The post text
 
 One clean draft, already at final length (the user posts it as-is from
-their phone). Before posting, replace `makefun-XXX-XXX-XXX` with the
-account's real play code for this bounty (code 0 from the play-code
-endpoint — the parent agent fills it in).
+their phone). The play code below is the account's real code 0 for this
+bounty (makefun-halibut-gallop-portrait, fetched from the play-code
+endpoint).
 
-> I'd put a bounty on an agent that finishes my half-built projects. You can make one for anything, make your own bounty on @makefunai: https://make.fun/sponsor/new makefun-XXX-XXX-XXX
+> I'd put a bounty on an agent that finishes my half-built projects. You can make one for anything, make your own bounty on @makefunai: https://make.fun/sponsor/new makefun-halibut-gallop-portrait
 
 The text carries the make.fun link, the @makefunai tag, and the play code,
 and it says what bounty the entrant would make — in their own words.
@@ -36,8 +36,8 @@ mark or wordmark was redrawn.
 1. Open make.fun's post: https://x.com/makefunai/status/2124915864336236646
 2. Tap the Repost icon (two arrows in a circle, 2nd icon from the left) —
    NOT the Reply icon (speech bubble) — then tap Quote.
-3. Attach `promo-photo.webp` and paste the post text above (with the real
-   play code in place of `makefun-XXX-XXX-XXX`).
+3. Attach `promo-photo.webp` and paste the post text above (play code
+   makefun-halibut-gallop-portrait already in place).
 4. Post it, then send the post's link back (Share button, then Copy link).
 5. The link goes into `POST.json` in this repository, and then the entry
    is submitted. Keep the post up and the account public until the
